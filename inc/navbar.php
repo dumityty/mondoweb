@@ -10,7 +10,7 @@
 				<ul class="nav nav-pills">
 					<li role="presentation" class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
 					<li role="presentation"><a href="#"><i class="fa fa-info-circle"></i> Profile</a></li>
-					<li role="presentation"><a href="https://twitter.com/getmondo" target="_blank"><i class="fa fa-twitter"></i> Contact Mondo</a></li>
+					<li role="presentation"><a href="https://twitter.com/monzo" target="_blank"><i class="fa fa-twitter"></i> Contact Monzo</a></li>
 				</ul>
 			</div>
 		</div>

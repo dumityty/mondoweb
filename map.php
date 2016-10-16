@@ -4,11 +4,11 @@
 		exit(header('location: /login.php'));
 	}
 	
-	// check the access token is still ive
+	// Check the access token is still live
 	require_once('inc/settings.php');
 	require_once('scripts/checkAccessToken.php');
 	if(tokenExpired($_SESSION['accesstoken'],$api_root)) {
-		// make them re-auth, their token has expired.
+		// Make them re-auth, their token has expired.
 		exit(header('location: /login.php?expired'));
 	}
 	
@@ -40,7 +40,7 @@
 			
 			// define the markers array
 			$markers = array();
-			
+
 			// get transactions
 			
 			// set the amount spent counter
@@ -68,7 +68,8 @@
 			$average = $total / $i;
 			
 		?>
-		<script src="https://maps.google.com/maps/api/js?sensor=true&.js"></script>
+<!--		<script src="https://maps.google.com/maps/api/js?sensor=true&.js"></script>-->
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
 		<script src="https://rawgit.com/HPNeo/gmaps/master/gmaps.js"></script>
 		<script>
 			var map = new GMaps({
