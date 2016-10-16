@@ -69,7 +69,7 @@
 			
 		?>
 <!--		<script src="https://maps.google.com/maps/api/js?sensor=true&.js"></script>-->
-		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=true&key=<?php print $google_maps_api; ?>"></script>
 		<script src="https://rawgit.com/HPNeo/gmaps/master/gmaps.js"></script>
 		<script>
 			var map = new GMaps({
