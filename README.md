@@ -24,9 +24,13 @@ Hoping to release this open source Mondo online banking client once Mondo become
 	$clientsecret = 'YOUR_CLIENT_SECRET_HERE';
 	// root url without the trailing slash!
 	$rooturl = 'http://yourdomain.com';
+
+	// Google maps API key
+    $google_maps_api_key = 'YOUR_API_KEY';
+
 	// set the api auth root url - *you don't need to touch this*
-	$api_auth_root = 'https://auth.getmondo.co.uk';
+	$api_auth_root = 'https://auth.monzo.com';
 	// api root url - *you don't need to touch this*
-	$api_root = 'https://api.getmondo.co.uk';
+	$api_root = 'https://api.monzo.com';
 ?>
 ```
